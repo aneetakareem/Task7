@@ -1,0 +1,174 @@
+body,p,h1,h2,h3,h4,h5,h6,hr{
+	margin: 0 auto;
+}
+
+.seperater{
+	margin: 0  auto !important;
+
+}
+
+#home-page{
+    background-image: url(../images/catering.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+#home-page  h2{
+	 color: white;
+	font-size: 50px;
+	font-family:  sans-serif;
+	margin-top: 150px;
+	font-weight: normal;
+}
+
+#home-page  h4{
+	 color: white;
+	font-size: 25px;
+	font-family:  sans-serif;
+	font-weight: initial;
+	margin-top: 10px;
+}
+
+#home-page  button{
+	padding: 10px;
+	color: white;
+	background-color: #1EBBA3;
+	border-color: #1EBBA3;
+	border: 1px solid #1EBBA3;
+	margin-top: 25px;
+}
+
+#About{
+	height: auto;
+	text-align: center;
+	background-color: white;
+	color: black;
+	justify-content: center;
+}
+
+#About h4{
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 60px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+
+#About p{
+	font-size: 15px;
+	font-weight: normal;
+	padding-top: 10px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+
+#About button{
+	padding: 15px;
+	color: white;
+	background-color: #1EBBA3;
+	border-color: #1EBBA3;
+	border: 1px solid #1EBBA3;
+	margin-top: 25px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+#Features{
+	background-color: #E9ECEF;
+	color: black;
+	height: 100%;
+	text-align: center;
+	padding: 60px 0;
+}
+
+#Features hr{
+	border: 2px solid #1EBBA3;
+	width: 60px;
+
+}
+
+#Features  h2{
+	text-transform: capitalize;
+}
+
+#care{
+	background-image: url(../images/catering.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	text-align: center;
+	color: #E9ECEF;		
+	padding: 60px 0;				
+}
+
+#care h2{
+	font-family: sans-serif;
+	font-size: 25px;
+	text-transform: capitalize;	
+	margin: 0;
+	padding: 0;					
+}
+
+#care hr{
+	border: 2px solid #1EBBA3;
+	width: 50px;			
+}
+
+#client{
+	text-transform: capitalize;
+	text-align: center;
+	justify-content: center;
+	padding: 60px 0;
+}
+	
+#client img{
+	border-radius: 100px;
+	width: 120px;
+	height: 120px;
+}
+	
+#client p{
+	border-bottom: 2px solid #1EBBA3;
+
+}
+	
+#client .image-box{
+	margin-top: 30px;
+	text-align: left;
+}
+
+#client .main-title hr{
+	border: 2px solid #1EBBA3;
+	width: 60px;
+}
+
+#client p{
+	float: left;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+#client h6{
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+
+#contact{
+	text-align: center;
+	font-family: sans-serif;
+	background-color: gray;
+	color: #fff;
+	height: 100%;
+	padding:  60px 0;
+}
+
+#contact p{
+	font-size: small;
+	font-family: sans-serif;
+}
